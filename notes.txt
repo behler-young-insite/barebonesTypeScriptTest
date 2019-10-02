@@ -1,0 +1,11 @@
+requires typescript:
+    either npm install (it is saved as a dependency in this repo)
+        or
+    npm install -g typescript 
+
+cd into the directory with your .ts files to be compiled and type "tsc fileName.ts" and a fileName.js will be created alongside it, reference that js in your application.
+    e.g. tsc greeter.ts // this will transpile only greeter.ts, by default it transpiles to .js of the same name in the same location
+
+Resources:
+    https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
+    https://www.freecodecamp.org/news/how-to-set-up-a-typescript-project-67b427114884/
